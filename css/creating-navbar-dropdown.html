@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My First Web Page with Bootstrap 4</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row bg-beige">
+            <div class="col-lg-12">
+                <img src="images/logo/yoda-logo-sm.png">
+            </div>
+        </div>
+        <div class="row bg-info">
+            <div class="col-lg-12 pt-2 pb-2">
+                <i class="fas fa-user"></i>
+                <i class="fas fa-user"></i>
+            </div>
+            <nav class="navbar navbar-expand-md bg-primary navbar-dark col-lg-12">
+                <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse" data-target="#myNavItems">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavItems">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"  data-toggle="dropdown" id="navbarDropdown" href="#">Our Products</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Product A</a>
+                                <a class="dropdown-item" href="#">Product B</a>
+                                <a class="dropdown-item" href="#">Product C</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Product D</a>
+                                <a class="dropdown-item" href="#">Product E</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 bg-secondary text-white pt-2">
+                <h4>WELCOME!</h4>
+                <p>Welcome to Yoda's Real Food! We’ve rolled out the red velvet carpet just for you. First things first: What is Yoda's Real Food anyway? Well, we like to think of it as edible entertainment 2.0 — meaning we’ve got everything you want to eat, plus endless ways to watch it. Intrigued? Here’s just a taste of what you can expect to enjoy:</p>
+                
+                <h4>A SMORGASBORD OF RECIPES</h4>
+                
+                <p>Starring all the classics, plus seriously genius new dishes from our original shows and users like you. Best of all, we’ve cooked up a clever way for you to find and save recipes from wherever you’re watching our content!</p>
+            </div>
+            <div class="col-lg-6 bg-dark text-white pt-2">
+                <img src="images/menu/burger/bulgogi-burger.jpg" class="thumbnail-image">
+                <p>Yoda's Real Food has EVERYTHING, including a veritable smorgasbord of over 500,000 recipes, a community-inspired activity feed that allows users to add reviews, tweaks, questions and photos, breaking food news and your weekly serving of pop culture, courtesy of our groundbreaking show YRF Now.</p>
+            </div>            
+        </div>
+        <div class="row bg-danger pt-2">
+            <div class="col-lg-12 text-center text-white">
+                <p>&copy;Yoda Real Food Inc</p>
+            </div>            
+        </div>        
+    </div>
+</body>
+</html>
